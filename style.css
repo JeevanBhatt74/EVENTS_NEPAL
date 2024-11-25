@@ -1,3 +1,9 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: "Mulish-Regular", Helvetica;
+}
 .home {
     background-color: #ffffff;
     display: flex;
@@ -19,7 +25,7 @@
     height: 695px;
     top: 115px;
     left: 96px;
-    background-image: url(./img/BG-image.png);
+    background-image: url(BG\ Image.png);
     background-size: cover;
     background-position: 50% 50%;
 }
@@ -337,4 +343,61 @@
     height: 116px;
     top: 0;
     left: 0;
+}
+
+
+.outer{
+    /* height: 30vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: solid 2px rgb(159, 214, 7); */
+    width: 100vw;
+    margin-left: -50px;
+}
+
+.nav_bar{
+    /* border: solid 2px red; */
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 6px 9px #8a8a8a7a;
+}
+
+.lists{
+    color: #270845;
+    font-family: "Mulish-SemiBold", Helvetica;
+    margin-left: 30em;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+    font-size: 16px;
+}
+
+.Logo{
+    width: 80px;
+    height: 60px;
+    margin-left: 130px;
+}
+
+.button {
+    margin-right: 8.5rem;
+    width: 138px;
+    height: 45px;
+    overflow: hidden;
+    border: 1px solid #270845;
+    background-color: white;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Mulish-Bold", Helvetica;
+}
+
+.button:hover{
+    background-color: rgba(144, 49, 232, 1);
+    color: white;
+    border: none;
 }
